@@ -1,10 +1,11 @@
 import './App.css'
+import UserData from './components/UserData'
 
 function App() {
 
   return (
     <>
-      <h1>Hello</h1>
+      <UserData />
     </>
   )
 }
