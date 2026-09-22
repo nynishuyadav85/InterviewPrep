@@ -1,5 +1,5 @@
 import './App.css'
-import Urlvalidator from './components/UrlValidator/Urlvalidator'
+import Debounce from './components/debounce'
 
 function App() {
 
@@ -7,7 +7,10 @@ function App() {
     <>
       {/* <Todo /> */}
       {/* <FocusInput />    */}
-      <Urlvalidator />
+      {/* <Urlvalidator />
+       */}
+      {/* <Tabs /> */}
+      <Debounce />
     </>
   )
 }
