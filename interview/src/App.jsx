@@ -1,11 +1,11 @@
 import './App.css'
-import UserData from './components/UserData'
+import Todo from './components/Todo/Todo'
 
 function App() {
 
   return (
     <>
-      <UserData />
+      <Todo />
     </>
   )
 }
