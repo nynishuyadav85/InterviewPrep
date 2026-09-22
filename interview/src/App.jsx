@@ -1,12 +1,12 @@
 import './App.css'
-import Todo from './components/Todo/Todo'
+import FocusInput from './components/FocusInput/FocusInput'
 
 function App() {
 
   return (
     <>
-      <Todo />
-    </>
+      {/* <Todo /> */}
+      <FocusInput />    </>
   )
 }
 
