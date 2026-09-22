@@ -1,12 +1,14 @@
 import './App.css'
-import FocusInput from './components/FocusInput/FocusInput'
+import Urlvalidator from './components/UrlValidator/Urlvalidator'
 
 function App() {
 
   return (
     <>
       {/* <Todo /> */}
-      <FocusInput />    </>
+      {/* <FocusInput />    */}
+      <Urlvalidator />
+    </>
   )
 }
 
