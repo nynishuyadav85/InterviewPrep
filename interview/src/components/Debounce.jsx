@@ -7,7 +7,7 @@ const Debounce = () => {
 
     return (
         <div>
-            <h1>Debouncdddde</h1>
+            <h1>Debounce</h1>
             <input type="text" value={text} onChange={(e) => setText(e.target.value)}></input>
         </div>
     )

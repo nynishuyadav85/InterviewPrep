@@ -1,5 +1,6 @@
 import './App.css'
-import Debounce from './components/debounce'
+// import Debounce from './components/Debounce.jsx'
+// import Tabs from './components/SwitichingTab/Tabs.jsx'
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
       {/* <Urlvalidator />
        */}
       {/* <Tabs /> */}
-      <Debounce />
+      {/* <Debounce /> */}
     </>
   )
 }
