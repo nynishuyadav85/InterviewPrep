@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 const CharacterCount = () => {
-    const [maxLength, setMaxLength] = useState(null);
+    const [maxLength, setMaxLength] = useState("");
     const [text, setText] = useState("")
 
     return (
@@ -14,10 +14,8 @@ const CharacterCount = () => {
             <input
                 type="number"
                 min={0}
-                value={maxLength}
-                onChange={(e) => setMaxLength(e.target.value)}
-            >
-            </input>
+                onChange={(e) => setMaxLength(Number(e.target.value))}
+            />
 
             <div className="m-4">
                 <textarea
