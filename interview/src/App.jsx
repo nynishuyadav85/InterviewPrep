@@ -1,6 +1,6 @@
 // import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import './App.css'
-import CharacterCount from './components/CharCount/CharacterCount'
+import FrequentlyAsked from './components/Faq/FrequentlyAsked'
 // import TanStackQuery from './Concepts/TanStackQuery'
 // import HOC from './Concepts/HOC';
 // import Score from './components/ScoreFetch/Score'
@@ -23,12 +23,13 @@ function App() {
       {/* <BackToTop /> */}
       {/* <Score />
        */}
-      <CharacterCount />
+      {/* <CharacterCount /> */}
       {/* <QueryClientProvider client={queryClient}>
         <TanStackQuery />
       </QueryClientProvider> */}
 
       {/* <HOC /> */}
+      <FrequentlyAsked />
     </>
   )
 }
