@@ -1,6 +1,7 @@
 // import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import './App.css'
-import FrequentlyAsked from './components/Faq/FrequentlyAsked'
+import AutoSave from './components/AutoSave/AutoSave'
+// import FrequentlyAsked from './components/Faq/FrequentlyAsked'
 // import TanStackQuery from './Concepts/TanStackQuery'
 // import HOC from './Concepts/HOC';
 // import Score from './components/ScoreFetch/Score'
@@ -29,7 +30,8 @@ function App() {
       </QueryClientProvider> */}
 
       {/* <HOC /> */}
-      <FrequentlyAsked />
+      {/* <FrequentlyAsked /> */}
+      <AutoSave />
     </>
   )
 }
