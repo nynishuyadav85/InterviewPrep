@@ -1,13 +1,12 @@
+import { Menu } from "lucide-react"
 import { useState } from "react"
+import "./style.css"
 
 const SideBar = () => {
     const [toggle, setToggle] = useState(false)
     return (
-        <div>
-            <h3>
-                SideBar
-            </h3>
-            <button type="button" onClick={() => setToggle(!toggle)}>Menu {toggle ? "-" : "+"}</button>
+        <div className={`sidebar ${toggle ? "open" : "closed"}`}>
+            <button className="toggle-btn" type="button" onClick={() => setToggle(!toggle)}><Menu /></button>
             {toggle && <div>
                 <li>Home</li>
                 <li>Dashboard</li>
