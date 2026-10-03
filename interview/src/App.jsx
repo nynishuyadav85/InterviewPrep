@@ -1,6 +1,7 @@
 // import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import './App.css'
-import ReadMore from './components/ReadMore/ReadMore'
+import Ctcb from './components/CopyToClipBoard/Ctcb'
+// import ReadMore from './components/ReadMore/ReadMore'
 // import ZigZagString from './components/ZigZagString/ZigZagString'
 // import BlogPost from './components/BlogPost/BlogPost'
 // import FieldValidation from './components/AstrickFieldValidation/FieldValidation'
@@ -41,7 +42,8 @@ function App() {
       {/* <SideBar /> */}
       {/* <BlogPost /> */}
       {/* <ZigZagString /> */}
-      <ReadMore />
+      {/* <ReadMore /> */}
+      <Ctcb />
     </>
   )
 }
