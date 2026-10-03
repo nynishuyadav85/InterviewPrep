@@ -1,6 +1,7 @@
 // import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import './App.css'
-import BlogPost from './components/BlogPost/BlogPost'
+import ZigZagString from './components/ZigZagString/ZigZagString'
+// import BlogPost from './components/BlogPost/BlogPost'
 // import FieldValidation from './components/AstrickFieldValidation/FieldValidation'
 // import SideBar from './components/SideBar/SideBar'
 // import AutoSave from './components/AutoSave/AutoSave'
@@ -37,7 +38,8 @@ function App() {
       {/* <AutoSave /> */}
       {/* <FieldValidation /> */}
       {/* <SideBar /> */}
-      <BlogPost />
+      {/* <BlogPost /> */}
+      <ZigZagString />
     </>
   )
 }
