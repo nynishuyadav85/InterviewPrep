@@ -1,6 +1,7 @@
 // import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import './App.css'
-import Ctcb from './components/CopyToClipBoard/Ctcb'
+import AgeCalc from './components/AgeCalculator/AgeCalc'
+// import Ctcb from './components/CopyToClipBoard/Ctcb'
 // import ReadMore from './components/ReadMore/ReadMore'
 // import ZigZagString from './components/ZigZagString/ZigZagString'
 // import BlogPost from './components/BlogPost/BlogPost'
@@ -43,7 +44,8 @@ function App() {
       {/* <BlogPost /> */}
       {/* <ZigZagString /> */}
       {/* <ReadMore /> */}
-      <Ctcb />
+      {/* <Ctcb /> */}
+      <AgeCalc />
     </>
   )
 }
