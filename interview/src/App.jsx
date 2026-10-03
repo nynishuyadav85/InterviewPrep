@@ -1,7 +1,8 @@
 // import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import './App.css'
+import BlogPost from './components/BlogPost/BlogPost'
 // import FieldValidation from './components/AstrickFieldValidation/FieldValidation'
-import SideBar from './components/SideBar/SideBar'
+// import SideBar from './components/SideBar/SideBar'
 // import AutoSave from './components/AutoSave/AutoSave'
 // import FrequentlyAsked from './components/Faq/FrequentlyAsked'
 // import TanStackQuery from './Concepts/TanStackQuery'
@@ -35,7 +36,8 @@ function App() {
       {/* <FrequentlyAsked /> */}
       {/* <AutoSave /> */}
       {/* <FieldValidation /> */}
-      <SideBar />
+      {/* <SideBar /> */}
+      <BlogPost />
     </>
   )
 }
