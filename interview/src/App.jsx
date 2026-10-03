@@ -1,6 +1,7 @@
 // import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import './App.css'
-import ZigZagString from './components/ZigZagString/ZigZagString'
+import ReadMore from './components/ReadMore/ReadMore'
+// import ZigZagString from './components/ZigZagString/ZigZagString'
 // import BlogPost from './components/BlogPost/BlogPost'
 // import FieldValidation from './components/AstrickFieldValidation/FieldValidation'
 // import SideBar from './components/SideBar/SideBar'
@@ -39,7 +40,8 @@ function App() {
       {/* <FieldValidation /> */}
       {/* <SideBar /> */}
       {/* <BlogPost /> */}
-      <ZigZagString />
+      {/* <ZigZagString /> */}
+      <ReadMore />
     </>
   )
 }
