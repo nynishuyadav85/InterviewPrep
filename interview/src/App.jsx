@@ -1,6 +1,7 @@
 // import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import './App.css'
-import AgeCalc from './components/AgeCalculator/AgeCalc'
+// import AgeCalc from './components/AgeCalculator/AgeCalc'
+import TodoList from './components/TodoListII/TodoList'
 // import Ctcb from './components/CopyToClipBoard/Ctcb'
 // import ReadMore from './components/ReadMore/ReadMore'
 // import ZigZagString from './components/ZigZagString/ZigZagString'
@@ -45,7 +46,8 @@ function App() {
       {/* <ZigZagString /> */}
       {/* <ReadMore /> */}
       {/* <Ctcb /> */}
-      <AgeCalc />
+      {/* <AgeCalc /> */}
+      <TodoList />
     </>
   )
 }
