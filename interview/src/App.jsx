@@ -1,7 +1,9 @@
 // import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import './App.css'
+import BillCounterSystem from './components/BillCounterSystem/BillCounterSystem'
+// import Effect from './Concepts/useEffect'
 // import AgeCalc from './components/AgeCalculator/AgeCalc'
-import TodoList from './components/TodoListII/TodoList'
+// import TodoList from './components/TodoListII/TodoList'
 // import Ctcb from './components/CopyToClipBoard/Ctcb'
 // import ReadMore from './components/ReadMore/ReadMore'
 // import ZigZagString from './components/ZigZagString/ZigZagString'
@@ -47,7 +49,9 @@ function App() {
       {/* <ReadMore /> */}
       {/* <Ctcb /> */}
       {/* <AgeCalc /> */}
-      <TodoList />
+      {/* <TodoList /> */}
+      <BillCounterSystem />
+      {/* <Effect /> */}
     </>
   )
 }
