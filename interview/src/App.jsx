@@ -1,6 +1,7 @@
 // import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import './App.css'
 import BillCounterSystem from './components/BillCounterSystem/BillCounterSystem'
+import KanbanBoard from './components/KanBanBoard/KanbanBoard'
 // import Effect from './Concepts/useEffect'
 // import AgeCalc from './components/AgeCalculator/AgeCalc'
 // import TodoList from './components/TodoListII/TodoList'
@@ -50,8 +51,9 @@ function App() {
       {/* <Ctcb /> */}
       {/* <AgeCalc /> */}
       {/* <TodoList /> */}
-      <BillCounterSystem />
+      {/* <BillCounterSystem /> */}
       {/* <Effect /> */}
+      <KanbanBoard />
     </>
   )
 }
